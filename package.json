@@ -1,0 +1,46 @@
+{
+  "name": "angular2-speech-engine",
+  "version": "0.1.0",
+  "description": "A set of Angular2 services and components to add speech recognition and synthesis to Angular2 applications",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "postinstall": "typings install --ambient",
+    "lint": "tslint \"src/**/*.ts\"",
+    "deploy": "npm run tsc && npm version patch && npm publish",
+    "install": "npm run typings && npm run tsc",
+    "typings": "./node_modules/.bin/typings install --ambiant",
+    "tsc": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manekinekko/angular2-speech-engine.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "speech",
+    "recognition",
+    "synthesis",
+    "synthesizer"
+  ],
+  "author": "Wassim Chegham <github@wassimchegham.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manekinekko/angular2-speech-engine/issues"
+  },
+  "homepage": "https://github.com/manekinekko/angular2-speech-engine#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.20",
+    "zone.js": "0.6.10"
+  },
+  "devDependencies": {
+    "tslint": "^3.6.0",
+    "typescript": "^1.8.7",
+    "typings": "^0.8.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDevDependencies": {
+    "typescript": "github:DefinitelyTyped/DefinitelyTyped/typescript/typescript.d.ts#e5a27ea95e47b95333784f1f0d590127b4e39a89"
+  },
+  "ambientDependencies": {
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#6697d6f7dadbf5773cb40ecda35a76027e0783b2"
+  }
+}
