@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "postinstall": "typings install --ambient",
+    "postinstall": "npm run typings",
     "lint": "tslint \"src/**/*.ts\"",
     "deploy": "npm run tsc && npm version patch && npm publish",
     "install": "npm run typings && npm run tsc",
