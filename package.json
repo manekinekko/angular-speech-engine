@@ -1,6 +1,6 @@
 {
   "name": "angular2-speech-engine",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A set of Angular2 services and components to add speech recognition and synthesis to Angular2 applications",
   "main": "./angular2-speech-engine.ts",
   "private": false,
