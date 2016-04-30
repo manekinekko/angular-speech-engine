@@ -1,4 +1,4 @@
-import {NgZone, Injectable, EventEmitter} from 'angular2/core';
+import {NgZone, Injectable, EventEmitter} from '@angular/core';
 import {IWindow, IEvent, SpeechErrors, AbstractSpeechEngine} from './abstract-speech-engine';
 
 @Injectable()

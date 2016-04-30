@@ -18,6 +18,6 @@
 
   "files": [
     "angular2-speech-engine.ts",
-    "typings.d.ts"
+    "typings/browser.d.ts"
   ]
 }

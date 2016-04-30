@@ -1,4 +1,4 @@
-import {NgZone, EventEmitter} from 'angular2/core';
+import {NgZone, EventEmitter} from '@angular/core';
 
 export interface IWindow extends Window {
   webkitSpeechRecognition: any;
